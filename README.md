@@ -89,7 +89,6 @@ Key Features:
 1. Install dependencies:
    ```terminal
    npm install
-
 2. Start the app:
     ```terminal
     npm start
