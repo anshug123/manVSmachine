@@ -80,7 +80,7 @@ Key Features:
 
 
 ### Supporting Files
-- **Audio Files**: Audio data is stored and accessed through `../assets/data.js`.
+- **Audio Files**: Audio data is stored in directory `../assets/audio/` and accessed through `../assets/data.js`.
 - **Styles**: Custom styles for both screens are defined in separate files (`styles1.js` and `styles2.js`).
 - **Image Assets**: Background images are used to enhance visual appeal.
 
