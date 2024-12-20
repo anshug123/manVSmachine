@@ -89,7 +89,7 @@ Key Features:
 1. Install dependencies:
    ```terminal
    npm install
-
 2. Start the app:
     ```terminal
     npm start
+3. Scan QR with expo Go android app or Press w in your keyboard to view in web.
