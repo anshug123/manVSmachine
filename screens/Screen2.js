@@ -54,7 +54,7 @@ export default function Screen2({ route, navigation }) {
       setMetronomeSound(metronomeAudio);
 
       const metronomeRate = tempo / originalTempo;
-      await metronomeAudio.setRateAsync(metronomeRate);
+      await metronomeAudio.setRateAsync(metronomeRate,true);
 
       let lessonAudio;
       if (!isMetronomeOnly) {
@@ -63,7 +63,7 @@ export default function Screen2({ route, navigation }) {
         setLessonSound(lessonAudio);
 
         const lessonRate = tempo / originalTempo;
-        await lessonAudio.setRateAsync(lessonRate);
+        await lessonAudio.setRateAsync(lessonRate,true);
       }
 
       await metronomeAudio.playAsync();
